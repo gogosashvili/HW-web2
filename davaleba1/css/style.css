@@ -1,0 +1,61 @@
+body{
+	width: 944px;
+}
+.leather-jacket{
+	display: inline-block;
+	width: 464px;
+	margin-right: 15px;
+}
+.group{
+	display: inline-block;
+	width: 464px;
+}
+.group article{
+	display: inline-block;
+	width: 224px;
+}
+.info{
+	height: 105px;
+}
+.group article:nth-child(odd){
+	margin-right: 15px;
+}
+.info img{
+	width: 18px;
+	float: right;
+	margin-right: 15px;
+}
+/*font*/
+h1{
+	text-align: center;
+	font-size: 150%;
+	margin-bottom: 32px;
+	margin-top: 72px;
+}
+h2, h3, p{
+	line-height: 20px;
+}
+h2, .info img{
+	padding-top: 17px;
+}
+h2{
+	font-weight: bold;
+	font-size: 120%;
+}
+h3{
+	font-weight: bold;
+	font-size: 90%;
+}
+p{
+	font-size: 90%;
+}
+h4{
+	width: 300px;
+	line-height: 47px;
+	text-align: center;
+	border: 2px black solid;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	font-size: 80%;
+}
